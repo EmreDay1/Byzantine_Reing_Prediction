@@ -19,3 +19,8 @@ Above is the loss function through the traininig. The loss significantly dropped
 | Constantine VII    | 44 years   | 46 years   |
 
 The table above shows some prediction made on the test data. Altough later emperors were easier to predict the model struggled with early emperors such as Constantine I due to the empire not beign quite in a stable state. Altough after the first hundred years of the establishement of the Byzantine Empire the model was generally quite accurate in it's predictions generally having an offset of three years at maximum. The struggle in the first 100-150 years likely happened because of the barbarian raids on the Eastern and Western Roman Empire.
+
+
+## Feature Engineering Performed
+
+Altough a subpar dataset was provided to be able to create a better model columns had to be derived from the given data columns. The columns created were: Reign_Duration, Log_Reign_Duration, Age_at_Death, Age_at_Start_of_Reign, Reign_Per_Year_Start, Avg_Dinasty_Duration, Time_to_Reign, Time_to_End. Through the creation of these columns the loss was reduced from 35-30 to 2-3 providing a significant benefit to the model. 
