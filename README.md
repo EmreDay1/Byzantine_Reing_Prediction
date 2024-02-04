@@ -4,7 +4,7 @@ This is a model which predicts how long Byzantine emperors will reign trained co
 
 ## Results of the model
 
-<img src="graph.png" alt="Example Image" width="270" height="200" />
+<img src="graph.png" alt="Example Image" width="400" height="300" />
 
 
 Above is the loss function through the traininig. The loss significantly dropped until the 250th epoch. After 250 epochs the loss steadily dropped to between 2 to 3 at the end.
