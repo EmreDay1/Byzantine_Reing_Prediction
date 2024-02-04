@@ -70,7 +70,7 @@ model.compile(optimizer=optimizer, loss='mean_squared_error')
 
 
 history = model.fit(X_train_scaled, y_train, 
-                    epochs=1000, batch_size=32, 
+                    epochs=2000, batch_size=32, 
                     validation_data=(X_test_scaled, y_test), 
                     verbose=1)
 
