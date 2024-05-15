@@ -1,9 +1,5 @@
 # Byzantine Reing Prediction
 
-## General Overview
-
-This was a project created to combine the fields of history with artificial intelligence to recognize patterns that determine the factors which prolonge or shorten an emperors life
-
 This is a model which predicts how long Byzantine emperors will reign trained courtesy of the Byzantine Emperors (330-1453) dataset on Kaggle.
 
 ## Results of the model
